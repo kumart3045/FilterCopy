@@ -3,12 +3,12 @@
     justify-content:space-around;
     align-items: center;
     gap:5rem;
-    margin:2rem;
+    padding-right:1rem;
     font-size:25px;
     color:#4F3130;
     a:link{
         text-decoration:none;
-        color:#4F3130;
+        color:hsl(2, 24%, 25%);
     }
     a:hover{
         color:#fff;
@@ -37,6 +37,13 @@ body{
     h1{
         padding-right:50%;
     }
+}
+
+.org{
+    display: flex;
+    justify-content: left;
+    padding-right: 38rem;
+    align-items: left;
 }
 
 .coffeejpg{
@@ -114,3 +121,24 @@ h1{
     height:90%;
 }
 
+.header button{
+    background-color: #4F3130;
+    color:#AA5042;
+    font-size: 25px;
+    width:10rem;
+    height: 4rem;
+    text-decoration: none;
+    margin:0.5rem;
+    border:none;
+}
+
+button{
+    background-color: #4F3130;
+    color:#AA5042;
+    font-size: large;
+    width:10rem;
+    height: 4rem;
+    text-decoration: none;
+    margin:0.5rem;
+    border:none;
+}

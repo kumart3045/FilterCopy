@@ -1,0 +1,26 @@
+.ordertxt{
+    background-color:#AA5042;
+    color:#4F3130;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    padding-left:1rem;
+}
+
+button{
+    background-color: #4F3130;
+    color:#AA5042;
+    font-size: large;
+    width:10rem;
+    height: 4rem;
+    text-decoration: none;
+    margin:0.5rem;
+    border:none;
+}
+
+.img{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:none;
+}
