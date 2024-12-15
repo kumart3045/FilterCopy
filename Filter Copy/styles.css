@@ -309,7 +309,7 @@
         position: fixed;
         width: 100%;
         left: 100%;
-        top: 4.75rem;
+        top: 8rem;
         transition-property: left;
         transition-duration: .5s;
         transition-timing-function: ease-in-out;
@@ -321,19 +321,19 @@
 
     nav a{
         display: block;
-        color: #00e3c8;
+        color: #4F3130;
         text-align: center;
         text-decoration: none;
-        padding: 3rem;
-        border: 1px solid #5bc0b4;
+        padding: 1rem;
+        border: 1px solid #4F3130;
     }
 
     .overlay{
         width: 100%;
         height: 100%;
-        top: 4.75rem;
+        top: 8rem;
         position:fixed;
-        background-color: #0b132b65;
+        background-color: #4f31304f;
         transition-property: left;
         transition-duration: .5s;
         transition-timing-function: ease-in-out;
