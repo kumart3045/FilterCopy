@@ -48,10 +48,12 @@ h1{
     padding-left:4.5rem;
 }
 
+@media (max-width:500px){
 nav button{
     display:none;
 }    
 
 .contact-button {
     display: none;
+}
 }

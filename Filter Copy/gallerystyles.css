@@ -91,10 +91,12 @@ h1{
 }
 }
 
+@media (max-width:500px){
 nav button{
     display:none;
 }    
 
 .contact-button {
     display: none;
+}
 }
