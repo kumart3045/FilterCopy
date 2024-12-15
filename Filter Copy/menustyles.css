@@ -1,3 +1,4 @@
+@media (min-width: 1000px){
 .grid{
     display:grid;
     grid-template-columns: 30% 35% 35%;
@@ -6,7 +7,7 @@
     align-items:center;
 }
 
-.img1.1{
+#imgg1{
     grid-column-start:1;
     grid-column-end:2;
     grid-row-start:1;
@@ -20,7 +21,7 @@
     grid-row-end:3;
 }
 
-.img2.1{
+#imgg2{
     grid-column-start:1;
     grid-column-end:2;
     grid-row-start:2;
@@ -32,4 +33,18 @@
     grid-column-end:4;
     grid-row-start:1;
     grid-row-end:3;
+}
+}
+
+
+h1{
+    margin:2rem;
+    padding:1rem;
+    background-color: #AA5042;
+    color: #4F3130;
+}
+
+#imgg1, #imgg2{
+    padding-left:4.5rem;
+    margin:none;
 }

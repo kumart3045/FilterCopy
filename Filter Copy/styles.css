@@ -1,144 +1,349 @@
-.header{
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
-    gap:5rem;
-    padding-right:1rem;
-    font-size:25px;
-    color:#4F3130;
-    a:link{
-        text-decoration:none;
-        color:hsl(2, 24%, 25%);
+@media (min-width: 1000px){
+
+    .hamburger{
+        display: none;
     }
-    a:hover{
-        color:#fff;
+
+    nav{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        gap:5rem;
+        padding-right:1rem;
+        font-size:25px;
+        color:#4F3130;
+        a:link{
+            text-decoration:none;
+            color:hsl(2, 24%, 25%);
+        }
+        a:hover{
+            color:#fff;
+        }
     }
-}
-
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #AA5042;
-}
-
-body{
-    background-color:#4F3130;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.coffeebeans{
-    background-color:#AA5042;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:2rem;
-    color:#4F3130;
+    
+    header{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: #AA5042;
+    }
+    
+    body{
+        background-color:#4F3130;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .coffeebeans{
+        background-color:#AA5042;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:2rem;
+        color:#4F3130;
+        h1{
+            padding-right:50%;
+        }
+    }
+    
+    .org{
+        display: flex;
+        justify-content: left;
+        padding-right: 38rem;
+        align-items: left;
+    }
+    
+    .coffeejpg{
+        margin:0;
+    }
+    
+    img{
+        margin:1rem;
+    }
+    
+    .hourscontact{
+        background-color: #AA5042;
+        margin:2rem;
+        color:#4F3130;
+        padding:2rem;
+    }
+    
+    
+    footer{
+        background-color: #AA5042;
+        font-size:25px;
+        color:#4F3130;
+       padding:1rem;
+    }
+    
     h1{
-        padding-right:50%;
-    }
-}
-
-.org{
-    display: flex;
-    justify-content: left;
-    padding-right: 38rem;
-    align-items: left;
-}
-
-.coffeejpg{
-    margin:0;
-}
-
-img{
-    margin:1rem;
-}
-
-.hourscontact{
-    background-color: #AA5042;
-    margin:2rem;
-    color:#4F3130;
-    padding:2rem;
-}
-
-
-footer{
-    background-color: #AA5042;
-    font-size:25px;
-    color:#4F3130;
-   padding:1rem;
-}
-
-h1{
-    margin:2rem;
-    padding:1rem;
-    background-color: #AA5042;
-    color: #4F3130;
-}
-
-.about1{
-    color:#4F3130;
-    background-color:#AA5042;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-    margin:2rem;
-    img{
-        margin:0;
-    }
-    h2{
         margin:2rem;
+        padding:1rem;
+        background-color: #AA5042;
+        color: #4F3130;
     }
-}
-
-.about2{
-    color:#4F3130;
-    background-color:#AA5042;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-    margin:2rem;
-    img{
-        margin:0;
-    }
-    h2{
+    
+    .about1{
+        color:#4F3130;
+        background-color:#AA5042;
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
         margin:2rem;
+        img{
+            margin:0;
+        }
+        h2{
+            margin:2rem;
+        }
+    }
+    
+    .about2{
+        color:#4F3130;
+        background-color:#AA5042;
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+        margin:2rem;
+        img{
+            margin:0;
+        }
+        h2{
+            margin:2rem;
+        }
+    }
+    
+    .coffeemenu{
+        color:#4F3130;
+        background-color:#AA5042;
+        margin:1rem;
+        padding:1rem;
+        height:90%;
+    }
+    .snacksmenu{
+        color:#4F3130;
+        background-color:#AA5042;
+        margin:1rem;
+        padding:1rem;
+        height:90%;
+    }
+    
+    .header button{
+        background-color: #4F3130;
+        color:#AA5042;
+        font-size: 25px;
+        width:10rem;
+        height: 4rem;
+        text-decoration: none;
+        margin:0.5rem;
+        border:none;
+    }
+    
+    button{
+        background-color: #4F3130;
+        color:#AA5042;
+        font-size: large;
+        width:10rem;
+        height: 4rem;
+        text-decoration: none;
+        margin:0.5rem;
+        border:none;
     }
 }
 
-.coffeemenu{
-    color:#4F3130;
-    background-color:#AA5042;
-    margin:1rem;
-    padding:1rem;
-    height:90%;
-}
-.snacksmenu{
-    color:#4F3130;
-    background-color:#AA5042;
-    margin:1rem;
-    padding:1rem;
-    height:90%;
-}
+@media (max-width:500px){
 
-.header button{
-    background-color: #4F3130;
-    color:#AA5042;
-    font-size: 25px;
-    width:10rem;
-    height: 4rem;
-    text-decoration: none;
-    margin:0.5rem;
-    border:none;
-}
+    body{
+        background-color:#4F3130;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 
-button{
-    background-color: #4F3130;
-    color:#AA5042;
-    font-size: large;
-    width:10rem;
-    height: 4rem;
-    text-decoration: none;
-    margin:0.5rem;
-    border:none;
+    nav{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        font-size:15px;
+        color:#4F3130;
+        a:link{
+            text-decoration:none;
+            color:hsl(2, 24%, 25%);
+        }
+        a:hover{
+            color:#fff;
+        }
+        gap:0;
+    }
+
+    nav button{
+        background-color: #4F3130;
+        color:#AA5042;
+        font-size: 15px;
+        width:8rem;
+        height: 2rem;
+        text-decoration: none;
+        border:none;
+    }    
+    
+    header{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        background-color: #AA5042;
+        padding-bottom:1rem;
+    }
+
+    footer{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        background-color: #AA5042;
+        color:#4F3130;
+    }
+
+    .coffeebeans{
+        background-color:#AA5042;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin:2rem;
+        color:#4F3130;
+        h1{
+            padding-right:50%;
+        }
+    }
+
+    .hourscontact{
+        background-color: #AA5042;
+        margin:2rem;
+        color:#4F3130;
+        padding:2rem;
+    }
+    
+    .org{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    .coffeejpg{
+        margin:0;
+        width:100%;
+    }
+    
+    img{
+        margin:1rem;
+    }
+
+    button{
+        background-color: #4F3130;
+        color:#AA5042;
+        font-size: 15px;
+        width:10rem;
+        height: 3rem;
+        text-decoration: none;
+        border:none;
+    }
+
+    h1{
+        margin:2rem;
+        padding:1rem;
+        background-color: #AA5042;
+        color: #4F3130;
+    }
+
+    .about1{
+        color:#4F3130;
+        background-color:#AA5042;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin:2rem;
+        h2{
+            margin:2rem;
+        }
+    }
+
+    .aboutt1, .aboutt2{
+            margin:0;
+            width:26rem;   
+    }
+    
+    .about2{
+        color:#4F3130;
+        background-color:#AA5042;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin:2rem;
+        img{
+            margin:0;
+            width:100%;
+        }
+        h2{
+            margin:2rem;
+        }
+    }
+
+    .coffeemenu{
+        background-color: #AA5042;
+        margin:2rem;
+        color:#4F3130;
+        padding:2rem;
+    }
+    .snacksmenu{
+        background-color: #AA5042;
+        margin:2rem;
+        color:#4F3130;
+        padding:2rem;
+    }
+
+    .hamburger{
+        width: 40px;
+        padding: .5rem;
+    }
+    
+    
+    .hamburger hr{
+        margin: .75rem 0;
+        border: 2px solid #4F3130;
+    }
+    
+    nav{
+        background-color: #AA5042;
+        position: fixed;
+        width: 100%;
+        left: 100%;
+        top: 4.75rem;
+        transition-property: left;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    nav.show{
+        left:0;
+    }
+
+    nav a{
+        display: block;
+        color: #00e3c8;
+        text-align: center;
+        text-decoration: none;
+        padding: 3rem;
+        border: 1px solid #5bc0b4;
+    }
+
+    .overlay{
+        width: 100%;
+        height: 100%;
+        top: 4.75rem;
+        position:fixed;
+        background-color: #0b132b65;
+        transition-property: left;
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+        left: -100%;
+    }
+    
+    .overlay.show{
+        left:0;
+    }
 }

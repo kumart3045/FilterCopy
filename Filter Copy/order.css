@@ -1,3 +1,4 @@
+@media (min-width: 1000px){
 .ordertxt{
     background-color:#AA5042;
     color:#4F3130;
@@ -23,4 +24,30 @@ button{
     margin-left:2rem;
     margin-right:2rem;
     margin-top:none;
+}
+}
+
+h1{
+    margin:2rem;
+    padding:1rem;
+    background-color: #AA5042;
+    color: #4F3130;
+}
+
+.img{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:none;
+    width:26.2rem;
+    padding-top:0rem;
+}
+
+.ordertxt{
+    color:#4F3130;
+    background-color:#AA5042;
+    margin:2rem;
+    margin-bottom:0rem;
+    padding-bottom:0rem;
+    padding:1rem;
+    height:90%;
 }

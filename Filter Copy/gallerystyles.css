@@ -1,3 +1,4 @@
+@media (min-width: 1000px){
 .gridgallery{
     display:grid;
     grid-template-columns: 25% 40% 35%;
@@ -43,4 +44,49 @@
     grid-row-start:1;
     grid-row-end:3;
     margin:1rem;
+}
+}
+
+@media (max-width: 500px){
+h1{
+    margin:2rem;
+    padding:1rem;
+    background-color: #AA5042;
+    color: #4F3130;
+}
+
+.onetwoonetwo{
+    width:25rem;
+    display: flex;
+    justify-content: center;
+    padding-left:26px;
+}
+
+.onetwotwothree{
+    width:25rem;
+    display: flex;
+    justify-content: center;
+    padding-left:26px;
+}
+
+.twothreeonetwo{
+    width:25rem;
+    display: flex;
+    justify-content: center;
+    padding-left:26px;
+}
+
+.twothreetwothree{
+    width:25rem;
+    display: flex;
+    justify-content: center;
+    padding-left:26px;
+}
+
+.threefouronethree{
+    width:25rem;
+    display: flex;
+    justify-content: center;
+    padding-left:26px;
+}
 }

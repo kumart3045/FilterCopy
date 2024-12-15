@@ -6,25 +6,38 @@
     <title>Filter Copy</title>
     <link rel="stylesheet" href="menustyles.css">
     <link rel="stylesheet" href="styles.css">
+
+    <script src="scripts.js"></script>
 </head>
 
 <body>
+    <div class="overlay" class="toggle-nav">
+        
+    </div> 
+
     <header>
-        <a href="index.html"> <img src="images/Filter Copy (3).jpg" width="100rem"> </a>
-        <div class="header">
+        <a href="index.html"> <img src="images/Filter Copy (3).jpg" width="100rem" alt="logo"> </a>
+
+        <div class="hamburger" onclick="toggleNav()"></div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+
+        <nav class="toggle-nav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="menu.html">Menu</a>
             <a href="gallery.html">Gallery</a>
             <a href="order.html">Order Now</a>
-            <a href="index.html#contact"><button>Contact</button></a>
-        </div>
+            <a href="#contact"><button>Contact</button></a>
+        </nav>
     </header>
 
     <main>
         <h1>MENU</h1>
         <div class="grid">
-        <img src="images/Filter_Coffee.png" width="300rem" class="img1.1">
+        <img src="images/Filter_Coffee.png" width="300rem" id="imgg1" alt="filter coffee">
         
 
         
@@ -55,7 +68,7 @@
         </div>
 
 
-        <img src="images/tumblersq.jpg" width="300rem" class="img2.1">
+        <img src="images/tumblersq.jpg" width="300rem" id="imgg2" alt="filter coffee">
 
 
         <div class="snacksmenu">
