@@ -49,3 +49,11 @@ h1{
     padding:1rem;
     height:90%;
 }
+
+nav button{
+    display:none;
+}    
+
+.contact-button {
+    display: none;
+}

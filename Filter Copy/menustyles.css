@@ -47,3 +47,11 @@ h1{
 #imgg1, #imgg2{
     padding-left:4.5rem;
 }
+
+nav button{
+    display:none;
+}    
+
+.contact-button {
+    display: none;
+}
