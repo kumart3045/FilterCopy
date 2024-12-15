@@ -1,5 +1,9 @@
 @media (min-width: 1000px){
 
+    .dontshow{
+        display:none;
+    }
+
     .hamburger{
         display: none;
     }
@@ -14,7 +18,7 @@
         color:#4F3130;
         a:link{
             text-decoration:none;
-            color:hsl(2, 24%, 25%);
+            color:#4F3130;
         }
         a:hover{
             color:#fff;
@@ -46,10 +50,9 @@
     }
     
     .org{
-        display: flex;
+        display:flex;
         justify-content: left;
         padding-right: 38rem;
-        align-items: left;
     }
     
     .coffeejpg{
@@ -150,6 +153,7 @@
     }
 }
 
+
 @media (max-width:500px){
 
     body{
@@ -170,17 +174,10 @@
         a:hover{
             color:#fff;
         }
-        gap:0;
     }
 
     nav button{
-        background-color: #4F3130;
-        color:#AA5042;
-        font-size: 15px;
-        width:8rem;
-        height: 2rem;
-        text-decoration: none;
-        border:none;
+        display:none;
     }    
     
     header{
@@ -316,7 +313,7 @@
         transition-property: left;
         transition-duration: .5s;
         transition-timing-function: ease-in-out;
-    }
+    } 
 
     nav.show{
         left:0;
