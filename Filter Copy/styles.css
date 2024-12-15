@@ -179,6 +179,10 @@
     nav button{
         display:none;
     }    
+
+    .contact-button {
+        display: none;
+    }
     
     header{
         display:flex;
