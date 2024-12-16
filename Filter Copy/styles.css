@@ -240,6 +240,9 @@
         flex-direction:column;
         align-items: center;
         margin:2rem;
+        h2{
+            margin:2rem;
+        }
     }
 
     .aboutt1, .aboutt2{
@@ -254,6 +257,9 @@
         flex-direction:column;
         align-items: center;
         margin:2rem;
+        h2{
+            margin:2rem;
+        }
     }
 
     .coffeemenu{
