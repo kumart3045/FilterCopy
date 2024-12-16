@@ -44,9 +44,6 @@
         align-items: center;
         margin:2rem;
         color:#4F3130;
-        h1{
-            padding-right:50%;
-        }
     }
     
     .org{
@@ -92,12 +89,6 @@
         justify-content: space-around;
         align-items:center;
         margin:2rem;
-        img{
-            margin:0;
-        }
-        h2{
-            margin:2rem;
-        }
     }
     
     .about2{
@@ -107,12 +98,6 @@
         justify-content: space-around;
         align-items:center;
         margin:2rem;
-        img{
-            margin:0;
-        }
-        h2{
-            margin:2rem;
-        }
     }
     
     .coffeemenu{
@@ -169,7 +154,7 @@
         color:#4F3130;
         a:link{
             text-decoration:none;
-            color:hsl(2, 24%, 25%);
+            color:#4F3130;
         }
         a:hover{
             color:#fff;
@@ -207,9 +192,6 @@
         align-items: center;
         margin:2rem;
         color:#4F3130;
-        h1{
-            padding-right:50%;
-        }
     }
 
     .hourscontact{
@@ -258,9 +240,6 @@
         flex-direction:column;
         align-items: center;
         margin:2rem;
-        h2{
-            margin:2rem;
-        }
     }
 
     .aboutt1, .aboutt2{
@@ -275,13 +254,6 @@
         flex-direction:column;
         align-items: center;
         margin:2rem;
-        img{
-            margin:0;
-            width:100%;
-        }
-        h2{
-            margin:2rem;
-        }
     }
 
     .coffeemenu{

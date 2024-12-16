@@ -36,7 +36,7 @@ h1{
 .img{
     margin-left:2rem;
     margin-right:2rem;
-    width:26.2rem;
+    width: 87rem;
     padding-top:0rem;
 }
 
@@ -58,4 +58,9 @@ nav button{
 .contact-button {
     display: none;
 }
+
+.img{
+    width:26.2rem;
+}
+
 }
