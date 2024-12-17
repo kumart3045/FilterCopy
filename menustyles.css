@@ -54,4 +54,25 @@ nav button{
 .contact-button {
     display: none;
 }
+
+.grid{
+    display:flex;
+    flex-direction: column;
+}
+
+#imgg1, #imgg2 {
+    width: 80%;
+    max-width: 300px; 
+    height: auto; 
+    margin: 0;
+    padding-right:4rem;
+}
+
+.coffeemenu, .snacksmenu {
+    width: 80%; 
+    margin: 2rem;
+    background-color: #AA5042;
+    color: #4F3130;
+    text-align: center; 
+}
 }

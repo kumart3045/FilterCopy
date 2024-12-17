@@ -1,7 +1,16 @@
-
-
     .dontshow{
         display:none;
+    }
+
+    .seemenu{
+        background-color: #4F3130;
+        border: none;
+        color: #AA5042;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
     }
 
     .hamburger{
@@ -17,13 +26,14 @@
         font-size:25px;
         color:#4F3130;
         /*The a:link and a:hover are inside of the Nav CSS. That is what the first two errors are*/
-        a:link{
-            text-decoration:none;
-            color:#4F3130;
-        }
-        a:hover{
-            color:#fff;
-        }
+    }
+
+    a:link{
+        text-decoration:none;
+        color:#4F3130;
+    }
+    a:hover{
+        color:#fff;
     }
     
     header{
@@ -127,17 +137,6 @@
         border:none;
     }
     
-    button{
-        background-color: #4F3130;
-        color:#AA5042;
-        font-size: large;
-        width:10rem;
-        height: 4rem;
-        text-decoration: none;
-        margin:0.5rem;
-        border:none;
-    }
-
     .contact-button{
         background-color: #4F3130;
         border: none;
@@ -158,25 +157,25 @@
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    nav{
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-        font-size:15px;
-        color:#4F3130;
-        a:link{
-            text-decoration:none;
-            color:#4F3130;
-        }
-        a:hover{
-            color:#fff;
-        }
+    .contact-button{
+        display:none;
     }
 
-    nav button{
-        display:none;
-    }    
+    .dontshow{
+        display: block;
+        color: #4F3130;
+        text-align: center;
+        text-decoration: none;
+        padding: 1rem;
+    }
 
+    a:link{
+        text-decoration:none;
+        color:#4F3130;
+    }
+    a:hover{
+        color:#fff;
+    }
     
     header{
         display:flex;
@@ -252,9 +251,10 @@
         align-items: center;
         margin:2rem;
         /*h2 is inside about1. Which is invalid for CSS*/
-        h2{
-            margin:2rem;
-        }
+    }
+
+    h2{
+        margin:2rem;
     }
 
     .aboutt1, .aboutt2{
@@ -270,9 +270,6 @@
         align-items: center;
         margin:2rem;
         /*h2 is inside about2 which is invalid. If you want to call just the h2 in the about2 you need to do .about2 h2{} */
-        h2{
-            margin:2rem;
-        }
     }
 
     .coffeemenu{
@@ -289,46 +286,56 @@
     }
 
     .hamburger{
+        display: block;
         width: 40px;
         padding: .5rem;
     }
-
     
     .hamburger hr{
         margin: .75rem 0;
         border: 2px solid #4F3130;
     }
     
-    nav{
+    header nav{
         background-color: #AA5042;
         position: fixed;
         width: 100%;
         left: 100%;
-        top: 8rem;
+        top: 10rem;
         transition-property: left;
         transition-duration: .5s;
         transition-timing-function: ease-in-out;
-    } 
-
-    nav.show{
-        left:0;
+        flex-direction:column;
+        padding-bottom:1.5rem;
     }
-
-    nav a{
+    
+    header nav a{
         display: block;
         color: #4F3130;
         text-align: center;
         text-decoration: none;
-        padding: 1rem;
-        border: 1px solid #4F3130;
+        font-size: 24px;
     }
-
+    
+    header{
+        background-color: #AA5042;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    
+    header nav.show{
+        left:0;
+    }
+    
     .overlay{
         width: 100%;
         height: 100%;
-        top: 8rem;
+        top: 10rem;
         position:fixed;
-        background-color: #4f31304f;
+        background-color: #4f31302c;
         transition-property: left;
         transition-duration: .5s;
         transition-timing-function: ease-in-out;

@@ -40,6 +40,10 @@ h1{
     padding-top:0rem;
 }
 
+
+
+@media (max-width:500px){
+
 .ordertxt{
     color:#4F3130;
     background-color:#AA5042;
@@ -50,7 +54,6 @@ h1{
     height:90%;
 }
 
-@media (max-width:500px){
 nav button{
     display:none;
 }    

@@ -58,44 +58,43 @@ h1{
     width:25rem;
     display: flex;
     justify-content: center;
-    padding-left:26px;
+    padding-left: 2px;
 }
 
 .onetwotwothree{
     width:25rem;
     display: flex;
     justify-content: center;
-    padding-left:26px;
+    padding-left: 2px;
 }
 
 .twothreeonetwo{
     width:25rem;
     display: flex;
     justify-content: center;
-    padding-left:26px;
+    padding-left: 2px;
 }
 
 .twothreetwothree{
     width:25rem;
     display: flex;
     justify-content: center;
-    padding-left:26px;
+    padding-left: 2px;
 }
 
 .threefouronethree{
     width:25rem;
     display: flex;
     justify-content: center;
-    padding-left:26px;
-}
+    padding-left: 2px;
 }
 
-@media (max-width:500px){
 nav button{
     display:none;
 }    
 
-.contact-button {
-    display: none;
+.gridgallery{
+    display:flex;
+    flex-direction: column;
 }
 }
