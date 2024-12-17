@@ -16,6 +16,7 @@
         padding-right:1rem;
         font-size:25px;
         color:#4F3130;
+        /*The a:link and a:hover are inside of the Nav CSS. That is what the first two errors are*/
         a:link{
             text-decoration:none;
             color:#4F3130;
@@ -250,6 +251,7 @@
         flex-direction:column;
         align-items: center;
         margin:2rem;
+        /*h2 is inside about1. Which is invalid for CSS*/
         h2{
             margin:2rem;
         }
@@ -267,6 +269,7 @@
         flex-direction:column;
         align-items: center;
         margin:2rem;
+        /*h2 is inside about2 which is invalid. If you want to call just the h2 in the about2 you need to do .about2 h2{} */
         h2{
             margin:2rem;
         }
