@@ -1,4 +1,4 @@
-@media (min-width: 1000px){
+
 
     .dontshow{
         display:none;
@@ -136,7 +136,18 @@
         margin:0.5rem;
         border:none;
     }
-}
+
+    .contact-button{
+        background-color: #4F3130;
+        border: none;
+        color: #AA5042;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+    }
+
 
 
 @media (max-width:500px){
@@ -165,9 +176,6 @@
         display:none;
     }    
 
-    .contact-button {
-        display: none;
-    }
     
     header{
         display:flex;
@@ -205,6 +213,8 @@
         display: flex;
         flex-direction:column;
         align-items: center;
+        font-size: 16px;
+        padding:2rem;
     }
     
     .coffeejpg{
@@ -279,7 +289,7 @@
         width: 40px;
         padding: .5rem;
     }
-    
+
     
     .hamburger hr{
         margin: .75rem 0;

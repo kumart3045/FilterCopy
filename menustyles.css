@@ -1,4 +1,4 @@
-@media (min-width: 1000px){
+
 .grid{
     display:grid;
     grid-template-columns: 30% 35% 35%;
@@ -34,8 +34,6 @@
     grid-row-start:1;
     grid-row-end:3;
 }
-}
-
 
 h1{
     margin:2rem;

@@ -1,4 +1,4 @@
-@media (min-width: 1000px){
+
 .gridgallery{
     display:grid;
     grid-template-columns: 25% 40% 35%;
@@ -44,7 +44,6 @@
     grid-row-start:1;
     grid-row-end:3;
     margin:1rem;
-}
 }
 
 @media (max-width: 500px){
